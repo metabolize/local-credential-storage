@@ -1,7 +1,7 @@
 {
   "name": "local-credential-storage",
   "description": "A light wrapper around LocalStorage, for storing credentials",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "local-credential-storage.js",
   "scripts": {
     "lint": "jscs --config node_modules/bodylabs-jscs/jscsrc-shared *.js",

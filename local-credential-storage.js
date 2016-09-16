@@ -11,8 +11,8 @@ var LocalCredentialStorage = module.exports = function (namespace) {
 };
 
 LocalCredentialStorage.prototype.isSet = function () {
-    return localStorage.getItem(this.usernameKey) &&
-        localStorage.getItem(this.passwordKey);
+    return Boolean(localStorage.getItem(this.usernameKey)) &&
+        Boolean(localStorage.getItem(this.passwordKey));
 };
 
 // Return an an object:
