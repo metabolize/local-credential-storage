@@ -1,10 +1,11 @@
 {
   "name": "local-credential-storage",
   "description": "A light wrapper around LocalStorage, for storing credentials",
+  "license": "BSD-2-Clause",
   "version": "1.0.1",
   "main": "local-credential-storage.js",
   "scripts": {
-    "lint": "jscs --config node_modules/bodylabs-jscs/jscsrc-shared *.js",
+    "lint": "eslint '**/*.js'",
     "test": "npm run lint"
   },
   "repository": {
@@ -12,7 +13,7 @@
     "url": "git@github.com:bodylabs/local-credential-storage.git"
   },
   "devDependencies": {
-    "jscs": "~2.1.1",
-    "bodylabs-jscs": "git+ssh://git@github.com/bodylabs/bodylabs-jscs#1.0.1"
+    "eslint": "~2.13.0",
+    "eslint-plugin-bodylabs": "^7.1.0"
   }
 }
