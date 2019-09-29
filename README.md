@@ -5,7 +5,7 @@
 [![build](https://img.shields.io/circleci/project/github/metabolize/local-credential-storage?style=flat-square)][build]
 [![code style](https://img.shields.io/badge/code_style-prettier-ff69b4?style=flat-square)][prettier]
 
-[npm]: https://npmjs.comlocal-credential-storage/
+[npm]: https://npmjs.com/local-credential-storage/
 [build]: https://circleci.com/gh/metabolize/local-credential-storage/tree/master
 [prettier]: https://prettier.io/
 
