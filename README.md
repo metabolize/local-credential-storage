@@ -11,6 +11,22 @@
 
 A light wrapper around LocalStorage, for storing credentials.
 
+## Usage
+
+```js
+import LocalCredentialStorage from 'local-credential-storage'
+
+const credentials = new LocalCredentialStorage('com.myapp')
+
+// Checking for saved credentials.
+if (credentials.isSet) {
+  const { username, password } = credentials.get()
+}
+
+// Saving new credentials.
+credentials.set('someuser', 'somepass')
+```
+
 ## Acknowledgements
 
 This little bit of code was developed at Body Labs by [Paul Melnikow][] and
