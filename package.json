@@ -6,14 +6,20 @@
   "main": "local-credential-storage.js",
   "scripts": {
     "lint": "eslint '**/*.js'",
-    "test": "npm run lint"
+    "prettier": "prettier --write \"**/*.@(yml|json|js|md)\"",
+    "prettier:check": "prettier --check \"**/*.@(yml|json|js|md)\"",
+    "test": "npm run lint && npm run prettier:check"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:bodylabs/local-credential-storage.git"
-  },
+  "repository": "metabolize/local-credential-storage",
   "devDependencies": {
-    "eslint": "~2.13.0",
-    "eslint-plugin-bodylabs": "^7.1.0"
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "prettier": "^1.15.2"
   }
 }
