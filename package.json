@@ -13,7 +13,7 @@
     "url": "git@github.com:bodylabs/local-credential-storage.git"
   },
   "devDependencies": {
-    "eslint": "~2.13.0",
+    "eslint": "~6.5.0",
     "eslint-plugin-bodylabs": "^7.1.0"
   }
 }
