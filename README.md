@@ -1,5 +1,3 @@
-local-credential-storage
-========================
+# local-credential-storage
 
 A light wrapper around LocalStorage, for storing credentials.
-
