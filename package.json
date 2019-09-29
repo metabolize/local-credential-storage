@@ -1,8 +1,9 @@
 {
   "name": "local-credential-storage",
   "description": "A light wrapper around LocalStorage, for storing credentials",
+  "keywords": ["credentials", "credential-storage", "localstorage"],
   "license": "BSD-2-Clause",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "main": "local-credential-storage.js",
   "scripts": {
     "lint": "eslint '**/*.js'",
