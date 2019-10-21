@@ -3,7 +3,7 @@
 // A light wrapper around LocalStorage, for storing credentials.
 //
 // namespace: A dotted namespace to use within local storage.
-//   e.g. bodylabs.creel, bodylabs.creel.staging
+//   e.g. com.mycompany.myapp, com.mycompany.myapp.staging
 //
 module.exports = class LocalCredentialStorage {
   constructor(namespace = 'credentials') {
@@ -24,16 +24,12 @@ module.exports = class LocalCredentialStorage {
   //  |- username
   //  |- password
   //
-  // Return null if credentials are not set.
+  // Return null for values which are not set.
   //
   get() {
-    if (this.isSet) {
-      return {
-        username: localStorage.getItem(this.usernameKey),
-        password: localStorage.getItem(this.passwordKey),
-      }
-    } else {
-      return undefined
+    return {
+      username: localStorage.getItem(this.usernameKey),
+      password: localStorage.getItem(this.passwordKey),
     }
   }
 
