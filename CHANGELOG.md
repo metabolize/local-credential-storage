@@ -5,7 +5,7 @@
 ### Breaking changes
 
 - Rename the keys used by local storage from `accessKey` to `username` and
-  `secret` to `password.
+  `secret` to `password`.
 - Work when username or password is set, but not both.
 
 ## 2.0.0
