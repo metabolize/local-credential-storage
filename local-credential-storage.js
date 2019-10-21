@@ -34,10 +34,6 @@ module.exports = class LocalCredentialStorage {
   }
 
   set(username, password) {
-    if (!username || !password) {
-      throw new Error('username and password should be truthy')
-    }
-
     localStorage.setItem(this.usernameKey, username)
     localStorage.setItem(this.passwordKey, password)
   }
