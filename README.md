@@ -18,12 +18,12 @@ import LocalCredentialStorage from 'local-credential-storage'
 
 const credentials = new LocalCredentialStorage('com.myapp')
 
-// Checking for saved credentials.
+// Check and get for saved credentials.
 if (credentials.isSet) {
   const { username, password } = credentials.get()
 }
 
-// Saving new credentials.
+// Save new credentials.
 credentials.set('someuser', 'somepass')
 ```
 
