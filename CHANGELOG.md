@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.0.0
+
+### Breaking changes
+
+- Rename the keys used by local storage from `accessKey` to `username` and
+  `secret` to `password.
+- Work when username or password is set, but not both.
+
 ## 2.0.0
 
 - Change `isSet` from a function to a property.
