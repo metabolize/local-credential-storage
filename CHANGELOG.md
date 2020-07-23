@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.0
+
+- Add type definitions.
+
 ## 3.0.0
 
 ### Breaking changes
