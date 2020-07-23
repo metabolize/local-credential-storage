@@ -17,7 +17,7 @@
     "prettier:check": "prettier --check \"**/*.@(yml|json|js|md)\"",
     "test": "npm run lint && npm run lint:ts && npm run prettier:check"
   },
-  "files": [],
+  "files": ["types/index.d.ts"],
   "repository": "metabolize/local-credential-storage",
   "devDependencies": {
     "dtslint": "^3.6.12",
