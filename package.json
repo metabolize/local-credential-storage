@@ -21,7 +21,7 @@
   "repository": "metabolize/local-credential-storage",
   "devDependencies": {
     "dtslint": "^3.6.12",
-    "eslint": "^6.1.0",
+    "eslint": "^7.8.0",
     "eslint-config-prettier": "^6.0.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.14.0",
