@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.0.0
+
+- In the localStorage key, use `:` instead of `.` as the separator between
+  the namespace and `username` and `password`.
+
 ## 3.1.0
 
 - Add type definitions.
