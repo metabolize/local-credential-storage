@@ -7,8 +7,8 @@
 //
 module.exports = class LocalCredentialStorage {
   constructor(namespace = 'credentials') {
-    this.usernameKey = `${namespace}.username`
-    this.passwordKey = `${namespace}.password`
+    this.usernameKey = `${namespace}:username`
+    this.passwordKey = `${namespace}:password`
   }
 
   get isSet() {
